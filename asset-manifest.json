@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9c9afc7d.css",
+    "main.js": "/static/js/main.c1773389.js",
+    "static/css/64.bba8fa55.chunk.css": "/static/css/64.bba8fa55.chunk.css",
+    "static/js/64.56dc6704.chunk.js": "/static/js/64.56dc6704.chunk.js",
+    "static/css/550.b0481e43.chunk.css": "/static/css/550.b0481e43.chunk.css",
+    "static/js/550.c5c2c75c.chunk.js": "/static/js/550.c5c2c75c.chunk.js",
+    "static/media/Ashish_logo.png": "/static/media/Ashish_logo.c58d951328d23c89ab94.png",
+    "static/media/iit_b_logo.png": "/static/media/iit_b_logo.c885448ac7928863d67f.png",
+    "static/media/data_science_logo.png": "/static/media/data_science_logo.c996fb2db9bf7cb80238.png",
+    "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
+    "static/media/AshishS_Resume_Hired.pdf": "/static/media/AshishS_Resume_Hired.38067b0625c184717d51.pdf",
+    "static/media/Agustina.woff": "/static/media/Agustina.eb0c59dda4cc308cba96.woff",
+    "static/media/krishi_sus_logo.png": "/static/media/krishi_sus_logo.77b2b3ee96b6823b7e1c.png",
+    "static/media/manOnTable.svg": "/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
+    "static/media/IIT_madras_logo.png": "/static/media/IIT_madras_logo.912f1eedc1f56156533c.png",
+    "static/media/NIE_f_logo.jpg": "/static/media/NIE_f_logo.364bbaa9412068307e07.jpg",
+    "static/media/contactMailDark.svg": "/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
+    "static/media/developerActivity.svg": "/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
+    "static/media/LT_logo.png": "/static/media/LT_logo.31b4a0732a8bfeae4d85.png",
+    "static/media/skill.svg": "/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
+    "index.html": "/index.html",
+    "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
+    "main.9c9afc7d.css.map": "/static/css/main.9c9afc7d.css.map",
+    "main.c1773389.js.map": "/static/js/main.c1773389.js.map",
+    "64.bba8fa55.chunk.css.map": "/static/css/64.bba8fa55.chunk.css.map",
+    "64.56dc6704.chunk.js.map": "/static/js/64.56dc6704.chunk.js.map",
+    "550.b0481e43.chunk.css.map": "/static/css/550.b0481e43.chunk.css.map",
+    "550.c5c2c75c.chunk.js.map": "/static/js/550.c5c2c75c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9c9afc7d.css",
+    "static/js/main.c1773389.js"
+  ]
+}
