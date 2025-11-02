@@ -1,0 +1,12 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "developerFolio",
+  "projectOwner": "saadpasta",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true,
+  "commitConvention": "angular"
+}
