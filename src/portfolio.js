@@ -22,7 +22,7 @@ const illustration = {
 
 const greeting = {
   username: "Ashish S",
-  title: "Greetings I am Asish",
+  title: "Greetings I am Ashish",
   subTitle: emoji(
     "A passionate Data Scientist 🚀 with a strong foundation in Electronics and hands-on experience in Python, SQL, Machine Learning, and Power BI, skilled at turning complex data into actionable insights and building intelligent, scalable solutions for real-world impact."
   ),
