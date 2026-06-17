@@ -182,15 +182,15 @@ const workExperiences = {
   //  {
   experience: [
     {
-      role: "Data Scientist",
-      company: "Turing",
+      role: "Data Engineer",
+      company: "Aerchain",
       companylogo: require("./assets/images/turing_t_logo.png"),
       date: "March 2025 – Present",
       desc: "Data-Driven Insights ,Machine Learning Solutions and Predictive Analytics",
       descBullets: [
-        "Designed and deployed machine learning models and data pipelines using Python, SQL, and AWS workflows to automate data processing and improve prediction accuracy",
-        "Developed interactive dashboards and analytical reports",
-        "Collaborated with cross-functional teams to integrate AI-driven APIs and backend solutions using LangChain, and cloud-based automation tools"
+        "Engineered Spark, BigQuery, and Snowflake pipelines powering 3 AI agents, processing procurement data across 1M+ vendor records with near real-time refresh.",
+        "Optimized data ingestion architecture, reducing pipeline runtime from 12 hours to 1 hour (8x improvement), and led technical onboarding for Meta.",
+        "Built ML-driven vendor recommendation and supply-chain simulation solutions using 1M+ procurement records to support sourcing and risk-analysis decisions."
       ]
     },
     {
