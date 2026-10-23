@@ -1,7 +1,26 @@
 @import "../_globalColor";
 
+body {
+  background-color: $lightBackground2;
+}
+
 .dark-mode {
   background-color: $darkBackground;
-  color: white;
-  transition: "0.1s";
+  color: $textColorDark;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+/* Reduced motion — disable decorative animations */
+@media (prefers-reduced-motion: reduce) {
+  .wave-emoji {
+    animation: none !important;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }

@@ -4,7 +4,6 @@
 
 import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
-import { title } from "process";
 
 // Splash Screen
 
@@ -22,9 +21,9 @@ const illustration = {
 
 const greeting = {
   username: "Ashish S",
-  title: "Greetings I am Ashish",
+  title: "Hi, I'm Ashish",
   subTitle: emoji(
-    "A passionate Data Scientist 🚀 with a strong foundation in Electronics and hands-on experience in Python, SQL, Machine Learning, and Power BI, skilled at turning complex data into actionable insights and building intelligent, scalable solutions for real-world impact."
+    "Data Engineer & ML Practitioner 🚀 — building production pipelines, AI agent infrastructure, and ML systems at scale. 2+ years across Spark, BigQuery, Snowflake, GCP, and AWS. 1st place, national data science competition."
   ),
   resumeLink:
     "https://drive.google.com/drive/folders/1tH9EsOqGbM4GklYyqS6J9ZPRxu_r9CQ8?usp=sharing", // Set to empty to hide the button
@@ -51,23 +50,26 @@ const socialMediaLinks = {
 const skillsSection = {
   title: "What I do",
   subTitle: [
-    "Data Science & AI || ",
-    "Digital and Analog Design"
+    "Data Engineering & ML || ",
+    "AI Systems at Scale || ",
+    "Analog & Digital Electronics"
   ],
   skills: [
     emoji(
-      "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases"
+      "⚡ Building production ETL pipelines on Spark, BigQuery, and Snowflake serving AI agents at scale"
     ),
-    emoji("⚡ Data Analysis building ETL/PI pipelines, and developing interactive dashboards for data-driven decision-making"),
+    emoji("⚡ Designing and deploying ML systems — recommendation engines, classifiers, and supply chain simulation — end to end"),
     emoji(
-      "⚡ Complex quantitative modelling for dynamic forecasting"
+      "⚡ Integrating enterprise APIs and data infrastructure for AI procurement platforms"
     ),
     emoji(
-      "⚡ Designing and simulating analog circuits such as amplifiers, filters, and oscillators using Cadence & SPICE tools"
+      "⚡ Creating BI dashboards and analytical models in Power BI and Tableau on 10GB+ datasets"
     ),
-    emoji("⚡ Developing and verifying digital systems using Verilog/VHDL on platforms like Xilinx"),
     emoji(
-      "⚡ Working with embedded systems, interfacing microcontrollers, sensors, and communication protocols (UART, SPI, I2C) for real-world applications"
+      "⚡ Applying NLP, Genetic Algorithms, and GenAI to real-world competition and production problems"
+    ),
+    emoji(
+      "⚡ Designing and simulating analog circuits (amplifiers, filters, oscillators) using Cadence & SPICE, and verifying digital systems with Verilog/VHDL on Xilinx platforms"
     )
   ],
 
@@ -75,57 +77,82 @@ const skillsSection = {
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
+    // --- Data Engineering ---
     {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
+      skillName: "Python",
+      fontAwesomeClassname: "devicon-python-plain"
     },
     {
-      skillName: "machine learning",
-      fontAwesomeClassname: "fa fa-cogs"
+      skillName: "SQL",
+      fontAwesomeClassname: "devicon-postgresql-plain"
     },
     {
-      skillName: "sql-database",
+      skillName: "Apache Spark",
+      fontAwesomeClassname: "devicon-apachespark-plain"
+    },
+    {
+      skillName: "Snowflake",
+      fontAwesomeClassname: "fas fa-snowflake"
+    },
+    {
+      skillName: "BigQuery",
+      fontAwesomeClassname: "fab fa-google"
+    },
+    {
+      skillName: "dbt",
       fontAwesomeClassname: "fas fa-database"
     },
+    // --- ML / AI ---
     {
-      skillName: "oracle cloud",
-      fontAwesomeClassname: "fa fa-cloud"
+      skillName: "TensorFlow",
+      fontAwesomeClassname: "devicon-tensorflow-original"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+      skillName: "Pandas",
+      fontAwesomeClassname: "devicon-pandas-plain"
     },
     {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
+      skillName: "Jupyter",
+      fontAwesomeClassname: "devicon-jupyter-plain"
     },
     {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
+      skillName: "Scikit-learn",
+      fontAwesomeClassname: "fas fa-brain"
     },
+    // --- BI & Analytics ---
     {
       skillName: "Power BI",
-      fontAwesomeClassname: "fa fa-table"
+      fontAwesomeClassname: "fas fa-chart-bar"
     },
     {
-      skillName: "aws",
+      skillName: "Tableau",
+      fontAwesomeClassname: "fas fa-chart-pie"
+    },
+    // --- Cloud & Infrastructure ---
+    {
+      skillName: "AWS",
       fontAwesomeClassname: "fab fa-aws"
     },
     {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
+      skillName: "GCP",
+      fontAwesomeClassname: "devicon-googlecloud-plain"
     },
     {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
+      skillName: "Docker",
+      fontAwesomeClassname: "devicon-docker-plain"
     },
     {
-      skillName: "cadence",
-      fontAwesomeClassname: "fa fa-microchip"
+      skillName: "Git",
+      fontAwesomeClassname: "devicon-git-plain"
+    },
+    // --- Electronics ---
+    {
+      skillName: "Verilog/VHDL",
+      fontAwesomeClassname: "fas fa-microchip"
     },
     {
-      skillName: "LTSpice",
-      fontAwesomeClassname: "fa fa-plug"
+      skillName: "Cadence/SPICE",
+      fontAwesomeClassname: "fas fa-plug"
     },
   ],
   display: true // Set false to hide this section, defaults to true
@@ -152,7 +179,7 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: false, //Set it to true to show Proficiency Section
   experience: [
     {
       Stack: "Data Scince and Analysis", //Insert stack or technology you have experience in
@@ -184,13 +211,13 @@ const workExperiences = {
     {
       role: "Data Engineer",
       company: "Aerchain",
-      companylogo: require("./assets/images/turing_t_logo.png"),
+      companylogo: require("./assets/images/aerchain_logo.webp"),
       date: "March 2025 – Present",
-      desc: "Data-Driven Insights ,Machine Learning Solutions and Predictive Analytics",
+      desc: "Building AI-native data infrastructure for procurement automation",
       descBullets: [
-        "Engineered Spark, BigQuery, and Snowflake pipelines powering 3 AI agents, processing procurement data across 1M+ vendor records with near real-time refresh.",
-        "Optimized data ingestion architecture, reducing pipeline runtime from 12 hours to 1 hour (8x improvement), and led technical onboarding for Meta.",
-        "Built ML-driven vendor recommendation and supply-chain simulation solutions using 1M+ procurement records to support sourcing and risk-analysis decisions."
+        "Engineered Spark + BigQuery pipelines serving 3 production AI agents (Negotiation, Procurement, Aera), processing 1M+ vendor records with sub-minute refresh latency.",
+        "Reduced pipeline runtime from 12 hours to 1 hour (8x improvement) via parallelization and incremental loads on Snowflake; led technical onboarding of Meta as enterprise client.",
+        "Built Random Forest vendor recommendation engine on 1M+ purchase records and ML Scenario Builder for supply chain disruption simulation — both deployed to production."
       ]
     },
     {
@@ -266,9 +293,54 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Impactful Projects",
-  subtitle: "Real World Application and Research Oriented",
+  title: "Projects & Competitions",
+  subtitle: "Production systems, competition wins, and research-driven builds",
   projects: [
+    {
+      image: require("./assets/images/google_logo.avif"),
+      projectName: "KisanWise — AI Agricultural Intelligence",
+      projectDesc: "AI copilot for 500M+ Indian smallholder farmers: sell/hold/store recommendations from a multi-signal Trust Engine, crop quality grading via Gemini Vision, live mandi price alerts, geospatial risk scoring via Google Earth Engine. 90 automated tests, deployed on Vercel.",
+      footerLink: [
+        { name: "Live Demo", url: "https://krishi-era-ai-updj.vercel.app/login" },
+        { name: "GitHub", url: "https://github.com/Ashishrox18/KisanWise" }
+      ]
+    },
+    {
+      image: require("./assets/images/imi_logo.jpeg"),
+      projectName: "Netflix Pivot & Recommendation Engine",
+      projectDesc: "1st Place — IMI Data Science Competition (250 participants). Genetic Algorithm feature selection (107→57 features) + Random Forest classifier (99.77% accuracy, AUC 1.0) + TF-IDF cosine similarity recommender across 8,807 Netflix titles. Strategic finding: TV content overtook movies post-2019.",
+      footerLink: [
+        { name: "View Certificate", url: "https://drive.google.com/file/d/1jf7otUtRIj6R79m1XapC7EI4VElVr2nF/view?usp=sharing" },
+        { name: "GitHub", url: "https://github.com/Ashishrox18/Netflix-Recommendation" }
+      ]
+    },
+    {
+      image: require("./assets/images/google_logo.avif"),
+      projectName: "LexLegal — GenAI Legal Document Intelligence",
+      projectDesc: "Built for Google Prompt Wars. Parses Indian contracts and legal documents with Gemini 2.0 Flash + Groq fallback — extracts risk flags (red/yellow/green), missing statutory clauses, ELI5 summaries, and lawyer-ready briefs. Zero document storage, privacy-first architecture.",
+      footerLink: [
+        { name: "GitHub", url: "https://github.com/Ashishrox18/LexLegal" }
+      ]
+    },
+    {
+      image: require("./assets/images/google_logo.avif"),
+      projectName: "CarbonWise — AI Carbon Footprint Tracker",
+      projectDesc: "AI-powered web app helping individuals track and reduce daily carbon footprint via 5-step check-ins, Gemini-generated personalized insights, Groq LLaMA 3.1 conversational coach, and 7-day habit streaks. Local-first, zero data persistence, WCAG 2.1 AA.",
+      footerLink: [
+        { name: "GitHub", url: "https://github.com/Ashishrox18/CarbonWise" }
+      ]
+    },
+    {
+      image: require("./assets/images/Deloitte_logo.png"),
+      projectName: "Nextu",
+      projectDesc: "Most suited ML model for credit card fraud detection — evaluated multiple techniques to identify the optimal classifier for real-world transaction data.",
+      footerLink: [
+        {
+          name: "GitHub",
+          url: "https://github.com/Ashishrox18/Fraud-detection"
+        }
+      ]
+    },
     {
       image: require("./assets/images/krishi_sus_logo.png"),
       projectName: "Krishi Inspiro",
@@ -277,18 +349,6 @@ const bigProjects = {
         {
           name: "Visit Website",
           url: "https://willowy-cat-2473ab.netlify.app/"
-        }
-        //  you can add extra buttons here.
-      ]
-    },
-    {
-      image: require("./assets/images/data_science_logo.png"),
-      projectName: "Nextu",
-      projectDesc: "most suited model for creditcard fraud detection in terms of the machine learning techniques chosen for the project",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "https://github.com/Ashishrox18/Fraud-detection"
         }
       ]
     }
@@ -305,6 +365,37 @@ const achievementSection = {
     "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
 
   achievementsCards: [
+    {
+      title: "IEI Engineering Award — Chief Minister of Karnataka",
+      subtitle:
+        "Presented by the Chief Minister of Karnataka for outstanding academic engineering project — recognised for excellence in electronics design and innovation.",
+      image: require("./assets/images/chiefminister_logo.jpg"),
+      imageAlt: "IEI Engineering Award",
+      footerLink: []
+    },
+    {
+      title: "Google Prompt Wars Winner",
+      subtitle:
+        "Won Google's Prompt Wars challenge for building LexLegal, a GenAI-powered legal document intelligence platform with Gemini 2.0 Flash.",
+      image: require("./assets/images/google_logo.avif"),
+      imageAlt: "Google Prompt Wars",
+      footerLink: [
+        { name: "GitHub", url: "https://github.com/Ashishrox18/LexLegal" }
+      ]
+    },
+    {
+      title: "1st Place — IMI Data Science Competition",
+      subtitle:
+        "Ranked 1st among 250 participants for Netflix content strategy and recommendation modelling using Genetic Algorithms and Random Forest.",
+      image: require("./assets/images/imi_logo.jpeg"),
+      imageAlt: "IMI Data Science Competition",
+      footerLink: [
+        {
+          name: "View Certificate",
+          url: "https://drive.google.com/file/d/1jf7otUtRIj6R79m1XapC7EI4VElVr2nF/view?usp=sharing"
+        }
+      ]
+    },
     {
       title: "IIT Madras Hackathon Winner",
       subtitle:
@@ -372,9 +463,9 @@ const blogSection = {
 // Talks Sections
 
 const talkSection = {
-  title: "TALKS",
+  title: "Research & Publications",
   subtitle: emoji(
-    "I LOVE TO SHARE NEW APPROACHES AND INNOVATIONS IN THE TECH DOMAIN"
+    "Published work in VLSI testing and environmental engineering"
   ),
 
   talks: [
@@ -383,6 +474,18 @@ const talkSection = {
       subtitle: "IIT Madras Bio Mimicry",
       slides_url: "https://drive.google.com/file/d/1pd2C7JC01CaHPtvFezh63XLee_2-UXjp/view?usp=sharing",
       event_url: "https://www.youtube.com/watch?v=k1Ufx5EFDtc"
+    },
+    {
+      title: "Automatic Test Pattern Generation for VLSI Circuits",
+      subtitle: "Shashidhara H. R, Ashish S, Suhas S — Genetic Algorithm-based ATPG with stuck-at fault model",
+      slides_url: "https://drive.google.com/file/d/1QeQET7T19iO6XCoLyJqIm-1e9qLfaAts/view?usp=drive_link",
+      event_url: "https://drive.google.com/file/d/1QeQET7T19iO6XCoLyJqIm-1e9qLfaAts/view?usp=drive_link"
+    },
+    {
+      title: "Effluent Purification by Accelerated Protein Biosynthesis Using Recombination of Algae",
+      subtitle: "Ashish S — Published research on bio-based water purification using algae recombination",
+      slides_url: "https://drive.google.com/file/d/1HEZsUBAQA95hH4_kRR9bs-poHnfnDSsi/view?usp=drive_link",
+      event_url: "https://drive.google.com/file/d/1HEZsUBAQA95hH4_kRR9bs-poHnfnDSsi/view?usp=drive_link"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -413,7 +516,7 @@ const resumeSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "I’m always open to connecting and discussing new ideas, collaborations, or professional opportunities feel free to reach out, and I’ll get back to you soon.",
+    "I'm always open to connecting and discussing new ideas, collaborations, or professional opportunities feel free to reach out, and I'll get back to you soon.",
   number: "+91 7019138913",
   email_address: "ashishandsan@gmail.com"
 };

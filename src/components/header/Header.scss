@@ -10,6 +10,8 @@
 .dark-menu {
   background-color: $darkBackground !important;
   color: $textColorDark;
+  border-bottom: 1px solid rgba(255,255,255,0.08) !important;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.4) !important;
 }
 
 .dark-menu li a {
@@ -25,6 +27,8 @@
   max-width: 100%;
   padding: 15px 20px;
   margin: 0px auto;
+  border-bottom: 1px solid $lightBorder1;
+  box-shadow: 0 1px 3px $lightBoxShadow;
 }
 
 .header ul {
@@ -43,6 +47,10 @@
   padding: 15px 20px;
   color: $textColor;
   text-decoration: none;
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 0.95rem;
+  transition: background 0.15s ease, color 0.15s ease;
 }
 
 .header li a:hover,

@@ -3,17 +3,33 @@
 .talk-header-title {
   font-size: 56px;
   font-weight: 400;
-  line-height: 0px;
+  line-height: normal;
+  margin: 0 0 0.25rem 0;
+  color: $titleColor;
+}
+
+.dark-mode.talk-header-title {
+  color: $textColorDark;
+}
+
+.talk-header-subtitle {
+  margin: 0 0 2rem 0;
 }
 
 .talk-cards-div {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
-  gap: 1rem 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.25rem;
 }
 
 .subTitle {
   color: $subTitle;
+}
+
+@media (max-width: 1380px) {
+  .talk-header-title {
+    font-size: 40px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -25,5 +41,8 @@
     font-size: 16px;
     line-height: normal;
     text-align: center;
+  }
+  .talk-cards-div {
+    grid-template-columns: 1fr;
   }
 }
